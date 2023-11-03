@@ -20,7 +20,6 @@ export class ArticleComponent implements OnInit {
 	}
 	ngOnInit() {
 
-		
 	}
 	showJavaArticles() {
 		this.store.dispatch(fromActions.JavaArticlesAction());
